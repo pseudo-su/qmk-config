@@ -4,6 +4,8 @@
 sudo pacman -S qmk
 
 qmk setup --home $HOME/Development/OpenSource/qmk_firmware
+
+qmk userspace-compile
 ```
 
 See original template repo instructions [./INSTRUCTIONS.md](./INSTRUCTIONS.md)
